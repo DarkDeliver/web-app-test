@@ -26,12 +26,12 @@
 </head>
 <body>
     <div id="container">Loading...</div>
-    <script>
-        window.Telegram.WebApp.ready(() => {
-            const initData = window.Telegram.WebApp.initData;
-            const container = document.getElementById('container');
-            container.innerText = initData;
-        });
-    </script>
 </body>
+<script>
+    window.Telegram.WebApp.ready(() => {
+        const initData = window.Telegram.WebApp.initData;
+        const container = document.getElementById('container');
+        container.innerText = initData;
+    });
+</script>
 </html>
