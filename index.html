@@ -30,7 +30,7 @@
         window.Telegram.WebApp.ready(() => {
             const initData = window.Telegram.WebApp.initData;
             const container = document.getElementById('container');
-            container.textContent = JSON.stringify(initData, null, 2);
+            container.innerText = initData;
         });
     </script>
 </body>
