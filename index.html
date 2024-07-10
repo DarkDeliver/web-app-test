@@ -30,6 +30,7 @@
 <script>
     window.Telegram.WebApp.ready(() => {
         const initData = window.Telegram.WebApp.initData;
+        console.log(initData)
         const container = document.getElementById('container');
         container.innerText = initData;
     });
