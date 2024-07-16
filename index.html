@@ -27,8 +27,8 @@
 <body>
     <div id="container">Loading...</div>
 </body>
-<script>
-    window.Telegram.WebApp.ready(() => {
+<script type="application/javascript">
+    window.addEventListener("load", function() {
         const initData = window.Telegram.WebApp.initData;
         console.log(initData)
         const container = document.getElementById('container');
